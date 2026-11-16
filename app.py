@@ -15,7 +15,7 @@ from tiling import psnr_u8, tile_restore
 
 # ---- config -----------------------------------------------------------------------------
 # After uploading the weights to Hugging Face Hub, put "<your-username>/<model-repo>" here.
-HF_REPO_ID = "YOUR-HF-USERNAME/jpeg-nafnet"
+HF_REPO_ID = "Pakornn/jpeg-nafnet"
 HF_FILENAME = "nafnet_ft_fp16.pth"
 LOCAL_CANDIDATES = ["nafnet_ft.pth", "nafnet_ft_fp16.pth"]   # used first if present (local run)
 BASE = os.path.dirname(os.path.abspath(__file__))
